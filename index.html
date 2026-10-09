@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Projects by ebartosh, including Lifeboat, an experimental Android app for Solana positions.">
+  <meta name="description" content="Projects by ebartosh, including Lifeboat, an emergency Android client for Solana positions.">
   <link rel="canonical" href="https://ebartosh.github.io/">
   <title>ebartosh | Projects</title>
   <style>
     :root { color-scheme: light; font-family: system-ui, sans-serif; color: #163b73; background: #fff; }
     body { margin: 0; padding: 28px 16px; }
-    main { max-width: 640px; margin: 6vh auto; border: 5px double #163b73; padding: clamp(20px, 5vw, 36px); }
+    main { overflow-wrap: anywhere; max-width: 640px; margin: 6vh auto; border: 5px double #163b73; padding: clamp(20px, 5vw, 36px); }
     h1 { font-size: clamp(32px, 7vw, 46px); line-height: 1.1; margin: 0 0 16px; }
     h2 { font-size: 26px; margin: 32px 0 12px; }
     p { line-height: 1.65; margin: 16px 0; }
@@ -27,7 +27,8 @@
     <section aria-labelledby="lifeboat-title">
       <h2 id="lifeboat-title">Lifeboat</h2>
       <p class="status">Android prototype &middot; Solana mainnet</p>
-      <p>Inspect ORE rewards, Kamino Lending positions and Meteora DLMM positions. Prepare supported operations for review and confirmation in your wallet.</p>
+      <p>Lifeboat is an emergency Android client for Solana positions. Withdraw, repay or claim when a protocol's website or backend is unavailable but the Solana blockchain still works.</p>
+      <p>Supported actions cover ORE rewards and staking, Kamino Lending repayment and collateral withdrawal, and Meteora DLMM withdrawal with recoverable progress. Lifeboat reads state from the chain and builds transactions itself, using an RPC endpoint and your external wallet.</p>
       <p>This prototype is under device testing. Wallet compatibility is being verified.</p>
       <p><a href="https://ebartosh.github.io/lifeboat/">Visit the Lifeboat project page</a></p>
       <p><a href="https://github.com/ebartosh/lifeboat">View the Lifeboat source code</a></p>

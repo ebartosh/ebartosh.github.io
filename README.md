@@ -4,6 +4,8 @@ Public project homepage for [ebartosh](https://github.com/ebartosh), hosted with
 
 The Lifeboat project page is https://ebartosh.github.io/lifeboat/ and its source repository is https://github.com/ebartosh/lifeboat.
 
+Lifeboat is an emergency Android client for Solana positions. It reads state directly from the chain and builds supported withdrawal, repayment and claim transactions using an RPC endpoint and an external wallet when protocol websites or backends are unavailable.
+
 ## Android app association
 
 `.well-known/assetlinks.json` associates this host with the Android package `app.lifeboat.mobile` and the signing certificate of the current Lifeboat prototype. It must be served at https://ebartosh.github.io/.well-known/assetlinks.json. `.nojekyll` preserves the dot-prefixed directory during publication.
